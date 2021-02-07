@@ -3,5 +3,14 @@
 A new Flutter project.
 
 ## Getting Started
- I have build App using flutter , Redhat,Docker , Firebase as database in this app you can run Redhat ,docker commands. 
-You Have to register with email id and data will store in firebase and you have to write your command and output will be shown in box
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
