@@ -15,3 +15,10 @@ How To run the app
 How to work on issuess 
 all releated topics
 https://youtu.be/t1Fo3KUx1_k
+
+App designing
+main 
+Home Page
+Registration Page
+Login 
+Chat
