@@ -9,3 +9,9 @@ I have Built my App In this I have Integrate Redhat-Docker in Mobile App you can
 # Language - Dart
 
 # Database - Firebase
+
+Check video I have told 
+How To run the app
+How to work on issuess 
+all releated topics
+https://youtu.be/t1Fo3KUx1_k
