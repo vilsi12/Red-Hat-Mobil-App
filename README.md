@@ -49,4 +49,11 @@ Check video below in which I have guided:
 
 [<img src="https://crosswoc.ieeedtu.in/images/imgcw.png">](https://crosswoc.ieeedtu.in/)
 
+# Project Maintainer
 
+<table>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/vilsi12"><img alt="Profile Picture" src="https://avatars.githubusercontent.com/u/53365687?s=400&u=ab773414f32e375f7b899f6f8a0b299ebe7d84e5&v=4" width="130px;"><br><sub><b>
+ Vilsi Jain </b></sub></a><br><a href="" title="Code">💻 </a></td></a></td>
+  </tr>
+</tbody></table>
