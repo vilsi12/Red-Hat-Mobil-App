@@ -45,10 +45,6 @@ Check video below in which I have guided:
 
 [Red Hat Mobile App Project Open Source Contribution](https://www.youtube.com/embed/t1Fo3KUx1_k)
 
-## This Project is under:
-
-[<img src="https://crosswoc.ieeedtu.in/images/imgcw.png">](https://crosswoc.ieeedtu.in/)
-
 # Project Maintainer
 
 <table>
