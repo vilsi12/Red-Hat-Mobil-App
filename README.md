@@ -1,5 +1,6 @@
 <h1 align="center"> Red Hat Mobile App </h1>
 
+
 <p style="text-align:center">
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -37,8 +38,7 @@ Purpose of this repository is to integrate Red-Hat and Docker in a Mobile App.<b
 * Chat
 
 ## Need Help?
-
-Check video below in which I have guided:
+Join our [Discord](https://discord.gg/f5WRUgArAD) Channel or check video link below in which I have guided:
 * How To run the app
 * How to work on issuess 
 * All other releated topics
