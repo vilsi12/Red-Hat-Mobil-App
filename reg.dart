@@ -66,7 +66,7 @@ class _MyRegState extends State<MyReg> {
                   password = value;
                 },
                 decoration: InputDecoration(
-                  hintText: "Enter Password",icon: Icon(Icons.lock_open),
+                  hintText: "Enter Password",icon: Icon(Icons.remove_red_eye),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
