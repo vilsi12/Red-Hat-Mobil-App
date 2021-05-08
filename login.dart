@@ -59,7 +59,7 @@ class _MyLoginState extends State<MyLogin> {
                 },
                 decoration: InputDecoration(
                   hintText: "Enter Password",
-                  icon: Icon(Icons.remove_red_eye),
+                  icon: Icon(Icons.lock_open),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
