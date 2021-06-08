@@ -43,7 +43,7 @@ Join our [Discord](https://discord.gg/f5WRUgArAD) Channel or check video link be
 * How to work on issuess 
 * All other releated topics
 
-[Red Hat Mobile App Project Open Source Contribution](https://www.youtube.com/embed/t1Fo3KUx1_k)
+Youtube [Red Hat Mobile App Project Open Source Contribution](https://www.youtube.com/embed/t1Fo3KUx1_k)
 
 # Project Maintainer
 
