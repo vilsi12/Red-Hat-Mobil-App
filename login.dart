@@ -1,93 +1,86 @@
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:splashscreen/splashscreen.dart';
 
-
-
-//import 'package:flutter/src/material/icons.dart';
-
-class MyLogin extends StatefulWidget {
+class MyHome extends StatefulWidget {
   @override
-  _MyLoginState createState() => _MyLoginState();
+  _MyHomeState createState() => _MyHomeState();
 }
 
-class _MyLoginState extends State<MyLogin> {
-  var authc = FirebaseAuth.instance;
-
-  String email;
-  String password;
-
+class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SplashScreen(
+      navigateAfterSeconds: Screen2(),
+      seconds: 7,
+      image: Image.asset(
+        'images/logo2.png',
+      ),
+      photoSize: 150.0,
+      title: Text(
+        "Red Hat App",
+        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),
+      ),
+      loaderColor: Colors.red.shade50,
+       backgroundColor: Colors.red.shade50,
+    );
+  }
+}
+
+class Screen2 extends StatefulWidget {
+  @override
+  _Screen2State createState() => _Screen2State();
+}
+
+class _Screen2State extends State<Screen2> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        //appBar: AppBar(
+        // title: ('Home Chat'),
+        home: Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(
-        title: Text('Login'),
-        backgroundColor: Colors.yellow,
+        title: Text('Welcome to Redhat'),
+        backgroundColor: Colors.pink,
       ),
       body: Center(
         child: Container(
-          width: 300,
-           margin: EdgeInsets.all(40),
-         
           child: Column(
-         
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              
-              Image.asset("assets/Redhat logo.png",height: 160, width:70),
-              Image.asset("assets/firebase-logo.png",height: 60, width:100),
-               
-              TextField(
-                keyboardType: TextInputType.emailAddress,
-                onChanged: (value) {
-                  email = value;
-                },
-                decoration: InputDecoration(
-                  hintText: "Enter Email",
-                  icon: Icon(Icons.mail),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              TextField(
-                obscureText: true,
-                onChanged: (value) {
-                  password = value;
-                },
-                decoration: InputDecoration(
-                  hintText: "Enter Password",
-                  icon: Icon(Icons.lock_open),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Material( 
+              Image.asset("assets/Redhat logo.png",height: 200, width:180),
+               Image.asset("assets/dock.jpg",height: 153, width:130),
+
+              // Image.asset("assets/firebase-logo.png",height: 60, width:200),
+              Material(
                 color: Colors.lightBlueAccent,
                 borderRadius: BorderRadius.circular(10),
                 elevation: 10,
                 child: MaterialButton(
                   minWidth: 200,
-                  height: 25,
+                  height: 40,
+                  child: Text('Registration'),
+                  onPressed: () {
+                    Navigator.pushNamed(context, "reg");
+                  },
+                ),
+              ),
+              SizedBox(
+                height: 40,
+              ),
+              Material(
+                color: Colors.lightBlueAccent,
+                borderRadius: BorderRadius.circular(10),
+                elevation: 10,
+                child: MaterialButton(
+                  minWidth: 200,
+                  height: 40,
                   child: Text('Login'),
-                  onPressed: () async {
-                    try {
-                      var userSignin = await authc.signInWithEmailAndPassword(
-                          email: email, password: password);
-                      print(userSignin);
-
-                      if (userSignin != null) {
-                        Navigator.pushNamed(context, "chatState");
-                      }
-                    } catch (e) {
-                      print(e);
-                    }
+                  onPressed: () {
+                    Navigator.pushNamed(context, "login");
+                    //   backgroundcolor : Colors.accents;
                   },
                 ),
               ),
@@ -95,6 +88,6 @@ class _MyLoginState extends State<MyLogin> {
           ),
         ),
       ),
-    );
+    ));
   }
 }
