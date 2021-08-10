@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-//import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 class MyHome extends StatefulWidget {
@@ -50,8 +50,8 @@ class _Screen2State extends State<Screen2> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              //* Image.asset("assets/Redhat logo.png",height: 200, width:180),
-              //* Image.asset("assets/dock.jpg",height: 153, width:130),
+              Image.asset("assets/Redhat logo.png",height: 200, width:180),
+               Image.asset("assets/dock.jpg",height: 153, width:130),
 
               // Image.asset("assets/firebase-logo.png",height: 60, width:200),
               Material(
