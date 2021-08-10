@@ -1,4 +1,4 @@
-//@dart=2.9
+
 import 'package:flutter/material.dart';
 //import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:splashscreen/splashscreen.dart';
@@ -13,7 +13,7 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return SplashScreen(
       navigateAfterSeconds: Screen2(),
-      seconds: 7,
+      seconds: 8,
       image: Image.asset(
         'images/logo2.png',
       ),
